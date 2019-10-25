@@ -1,0 +1,35 @@
+{
+  "name": "react-global-context",
+  "version": "0.0.4",
+  "description": "Global context for React applications",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "NODE_ENV=production sucrase ./src -d ./dist --transforms jsx,imports"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "Leonardo Habitzreuter <leonardo.h@hbsis.com.br>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonardoHabitzreuter/react-global-context.git"
+  },
+  "keywords": [
+    "js",
+    "react",
+    "state"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeonardoHabitzreuter/react-global-context/issues"
+  },
+  "homepage": "https://github.com/LeonardoHabitzreuter/react-global-context#readme",
+  "devDependencies": {
+    "react": "^16.11.0",
+    "sucrase": "^3.10.1"
+  },
+  "dependencies": {
+    "ramda": "^0.26.1",
+    "react-use": "^12.7.2"
+  }
+}

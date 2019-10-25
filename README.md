@@ -45,6 +45,7 @@ render(<App />, document.getElementById('app'))
 
 ### Now you can access the state using the lenses!
 ```
+// page.js
 import { useAppContext } from 'react-global-context'
 import { customerLens, customerCarLens } from './state'
 
@@ -63,7 +64,7 @@ const [customerCarState, setCustomerCarState] = useAppContext(customerCarLens)
 
 setCustomerCarState({ plate: 'yxz789' })
 ```
-***will change the customer car to:
+**will change the customer car to:**
 ```
 car: {
   year: '2019',

@@ -4,7 +4,8 @@
   "description": "Global context for React applications",
   "main": "dist/index.js",
   "scripts": {
-    "build": "NODE_ENV=production sucrase ./src -d ./dist --transforms jsx,imports"
+    "build": "NODE_ENV=production sucrase ./src -d ./dist --transforms jsx,imports",
+    "prepublish": "yarn build"
   },
   "files": [
     "dist"
